@@ -7,8 +7,10 @@ Oven::Oven(QObject *parent)
 
 bool Oven::cook()
 {
+    return true;
 }
 
 int Oven::powerSource()
 {
+    return this->source;
 }
