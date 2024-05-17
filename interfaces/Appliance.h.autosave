@@ -1,0 +1,12 @@
+#ifndef APPLIANCE_H
+#define APPLIANCE_H
+
+
+class Appliance
+{
+public:
+    virtual int powerSouc
+};
+
+
+#endif // APPLIANCE_H

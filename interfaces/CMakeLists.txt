@@ -14,6 +14,9 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(interfaces
   main.cpp
+  Appliance.h
+  Heating.h
+  Cool.h
 )
 target_link_libraries(interfaces Qt${QT_VERSION_MAJOR}::Core)
 
