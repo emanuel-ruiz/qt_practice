@@ -1,5 +1,6 @@
 /*
     INTERFACES
+        - Inherit from interfaces when inheriting from multiple classes.
 
     Virtual Function
         - A member function which is declared within a base class and is

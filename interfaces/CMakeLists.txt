@@ -17,6 +17,7 @@ add_executable(interfaces
   Appliance.h
   Heating.h
   Cool.h
+  oven.h oven.cpp
 )
 target_link_libraries(interfaces Qt${QT_VERSION_MAJOR}::Core)
 
